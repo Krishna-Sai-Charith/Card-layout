@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Frontend Mentor | Results summary component</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="Blue-card">
+        <h2>Your Result</h2>
+        <div class="circle">
+          <p class="seventy-six">76</p>
+          <h4>of 100</h4>
+        </div>
+        <h1>Great</h1>
+        <p>
+          You scored higher than 65% of the people who have taken these tests.
+        </p>
+      </div>
+      <div class="Summary-card">
+        <p>Summary</p>
+        <div class="Score-container">
+          <div class="Reaction">
+            <div class="text-wrapper">
+              <img
+                src="./assets/images/icon-reaction.svg"
+                alt="Reaction-Image"
+              />
+              <span class="score-category-text">Reaction</span>
+            </div>
+            <div class="marks-scored">
+              <span class="marks">80</span><span class="hundred">/100</span>
+            </div>
+          </div>
+          <div class="Memory">
+            <div class="text-wrapper">
+              <img src="./assets/images/icon-memory.svg" alt="Memory-Image" />
+              <span class="score-category-text">Memory</span>
+            </div>
+            <div class="marks-scored">
+              <span class="marks">92</span><span class="hundred">/100</span>
+            </div>
+          </div>
+          <div class="Verbal">
+            <div class="text-wrapper">
+              <img src="./assets/images/icon-verbal.svg" alt="Verabal-Image" />
+              <span class="score-category-text">Verbal</span>
+            </div>
+            <div class="marks-scored">
+              <span class="marks">61</span><span class="hundred">/100</span>
+            </div>
+          </div>
+          <div class="Visual">
+            <div class="text-wrapper">
+              <img src="./assets/images/icon-visual.svg" alt="Visual-Image" />
+              <span class="score-category-text">Visual</span>
+            </div>
+            <div class="marks-scored">
+              <span class="marks">72</span><span class="hundred">/100</span>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <button class="Continue-button">Continue</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

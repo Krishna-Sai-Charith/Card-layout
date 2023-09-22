@@ -1,0 +1,135 @@
+body{
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+.container{
+    display: flex;
+    margin-top:250px;
+    justify-content: center;
+}
+.circle{
+background-image: linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+border-radius: 50%;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+text-align: center;
+margin: auto;
+height: 150px;
+width: 150px;
+}
+.seventy-six{
+    font-size: 50px;
+    color: white;
+    font-weight: 700;
+    margin: 0;
+}
+.Blue-card{
+    text-align: center;
+    border-radius: 20px;
+    background-image: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    width: 325px;
+    height: 425px;
+}
+.Summary-card{
+    width: 325px;
+    height: 425px;
+    border-radius: 20px;
+    box-shadow: 15px 15px 15px hsl(221, 100%, 96%);
+}
+.Continue-button{
+    background-color:hsl(224, 30%, 27%);
+    width: 250px;
+    height: 45px;
+    font-weight: bold;
+    font-size: 14px;
+    margin: 25px auto auto 30px;
+    border-radius: 25px;
+    color: white;
+}
+.Score-container{
+    display: grid;
+    gap: 15px;
+    margin-left: 30px;
+}
+.Visual{
+    height: 45px;
+    width: 250px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    background-color:#F3F3FD ;
+    color: hsl(234, 85%, 45%);
+}
+.Verbal{
+    height: 45px;
+    width: 250px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    background-color:#F2FBFA ;
+    color:hsl(166, 100%, 37%) ;
+}
+.Memory{
+    height: 45px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    background-color:#FFFBF2 ;
+    color:hsl(39, 100%, 56%) ;
+}
+.Reaction{
+    height: 45px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    background-color:#FFF6F5 ;
+    color:hsl(0, 100%, 67%) ;
+}
+p{
+    color: hsl(241, 100%, 89%);
+    margin: 30px;
+    margin-top: 15px;
+    font-size: 18px;
+}
+img{
+    margin: 12px;
+}
+.Summary-card > p{
+    color: hsl(224, 30%, 27%);
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-top: 30px;
+}
+h1{
+    color: white;
+}
+h2{
+    margin-top: 30px;
+    color: hsl(241, 100%, 89%);
+}
+h4{
+    margin: 0;
+    color: hsl(241, 100%, 89%);
+}
+.score-category-text{
+    margin-bottom: 0px;
+}
+.marks{
+    color: hsl(224, 30%, 27%);
+    font-weight: bold;
+}
+.hundred{
+    color: #A9A6B0;
+}
+.text-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.marks-scored{
+    margin-left: auto;
+    margin-right: 10px;
+}
